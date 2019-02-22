@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			form{
+			    padding-top: 100px;
+				width: 500px;
+				height: 200px;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			label{
+				width: 300px;
+				height: 50px;
+				display: block;
+				margin-bottom: 10px;
+				margin:  0 auto;
+			}
+			label:last-of-type{
+				text-align: center;
+				justify-content: center;
+			}
+			span{
+				margin-left:15px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="http://localhost:3000">
+		<label>用户名：<input type="text" name="Username" id="" value="" /></label>
+		<label><span>密码：</span><input type="password" name="Password" id="" value="" /></label>
+        <label><input type="submit" name="" id="" value="登录" /></label>
+		</form>
+	</body>
+</html>
